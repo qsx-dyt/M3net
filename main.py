@@ -15,7 +15,7 @@ from models import build_model
 from pretrain import pretrain
 from utils.build_data import HSIDatasetBuilder
 from utils.util import save_results_to_log, validate, calculate_metrics
-from utils.visualise import plot_classification, plot_feature_tsne
+from utils.visualise import plot_classification
 
 parser = argparse.ArgumentParser("HSI_SSl")
 parser.add_argument('--dataset', type=str, default='IndianPines', help='dataset name')
